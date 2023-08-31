@@ -6,7 +6,7 @@ import chalk from "chalk";
 
 const db = new sqlite3.Database('loans.db' , (err) => {
     if(err) {
-        console.log(err.message);
+        // console.log(err.message);
     }
 
     console.log('Connected to the loans database');
